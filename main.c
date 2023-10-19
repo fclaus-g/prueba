@@ -1,4 +1,8 @@
-int main(void)
+int main(int ac, char **av)
 {
-	Este_main_es_un_experimento();
+    if (ac == 2)
+    {
+        ft_check_string_has_letter_a(av[1]);
+        
+    }
 }
